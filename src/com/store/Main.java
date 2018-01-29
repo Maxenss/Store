@@ -13,7 +13,9 @@ public class Main {
     // Управление персоналом, авторизация персонала.
 
     public static void main(String[] args) {
+        // Инициализируем данные
         Store.TestData();
-        Store.ShowProducts();
+        // Запускаем работу магазина
+        Store.storeWork();
     }
 }
